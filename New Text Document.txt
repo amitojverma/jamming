@@ -1,0 +1,5 @@
+create table login (userid varchar2(20), password varchar2(20), usertype varchar2(20), userstatus number, contactno number, address varchar2(40), name varchar2(40), designation varchar2(20), id number primary key);
+drop table login;
+create table category (categoryid varchar2(20), name varchar2(40));
+create table product (productid varchar2(20), category varchar2(40), name varchar2(40), description varchar2(200),price float(20), brand varchar2(20), offer varchar2(20), rating varchar2(20));
+create table vendors (id varchar2(20), name varchar2(20), rating varchar2(10), contactnumber varchar2(10),address varchar2(100));
